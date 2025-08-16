@@ -1,0 +1,14 @@
+import string
+import pyautogui
+import time
+
+love = "all"
+ttime.sleep(2)  # Give you time to switch to the window
+while love=="all":
+
+    pyautogui.click(500 , 1325)  # Click
+    time.sleep(0.5)
+    #pyautogui.click(500, 350)
+    time.sleep(0.5)
+    pyautogui.typewrite("You are a master of automation!", interval=0.1)
+    pyautogui.press("enter")
